@@ -14,7 +14,7 @@
         height: 100vh;
         background: linear-gradient(45deg, #23d5ab, #152a7c, #ee7752, #e73c7e);  
         background-size: 500% 500%;
-        animation: animeBG 10s ease infinite;
+        animation: animeBG 20s ease infinite;
         animation-direction: alternate;
     }
     
