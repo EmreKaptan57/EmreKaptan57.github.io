@@ -1,72 +1,82 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="main.css" rel="stylesheet">
-    <title>Emre Kaptan</title>
-    <link rel="icon" href="https://imgyukle.com/f/2022/04/17/RummRv.png" type="image/x-icon"/>
-
-    <style>
-
-        ul {
-            list-style: none;
-            padding-left: 0;
-            width: 100%;
-            margin: 0 auto;
-            text-align: center;
-
-        }
-
-        ul li {
-            display: inline-block;
-            width: 200px;
-            height: 50px;
-            line-height: 50px;
-            text-align: center;
-            text-transform: uppercase;
-        }
-
-        ul li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        ul li a:hover {
-            color: black;
-        }
-
-
-    </style>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/marshall-boya-logo.png" type="image/x-icon"/>
+    <title>Marshall Boya</title>
 </head>
+<body>
+    <div id="social">
+        <font>MARSHALL |<span>   İYİ BOYA, İYİ FİYAT</span></font>
 
-<body id="backgroundBody">
-    <div id="textBody">
-        <a href="https://emrappsoftware.blogspot.com/" target="_blank" rel="noopener noreferrer" ><img src="https://imgyukle.com/f/2022/04/17/RummRv.png" width="200px"/></a>
-        <h1 style="font-size:300%;">Emre Kaptan Web Sitesi</h1>
-        <p style="font-size:160%;">Merhaba, Ben Emre Kaptan. Eskişehir Osmangazi Üniversitesi Bilgisayar Programcılığı 1. Sınıf Öğrencisiyim. Kendimi Mobil Programlama sektöründe geliştirmek istiyorum. Bu Sitede yaptığım uygulamaları, geliştirmekte olduğum projeleri, işime yarayan programları ve başıma gelen olayları sizlerle paylaşmak istiyorum.</p>
-        <!--<div>
-            <a href="mailto:emrekaptan.iletisim@gmail.com" class="fa fa-google" target="_blank" rel="noopener noreferrer"></a>
-            <a href="https://www.instagram.com/emrappsoftware/" class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a>
-            <a href="https://www.youtube.com/channel/UCAotuQ_qWESOS-BohNynJsg" class="fa fa-youtube" target="_blank" rel="noopener noreferrer"></a>
-            <a href="https://twitter.com/EmrAppSoftware?t=0UvH7BGV05DyYY6Sg0pL6g&s=09" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
-            <a href="https://www.linkedin.com/in/emre-kaptan-452602235/" class="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a>
-        </div>-->
+        <i class="fa fa-google"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube-play"></i>
+        <i class="fa fa-search"></i>
+    </div>
+    <div id="container">
+        <header>
+        <img id="headerResim" src="img/marshall-banner.jpg" alt="" width="1000">
+        <div id="centered">MARSHALL BOYA</div>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-home"></i>Ana Sayfa</a></li>
+                    <li><a href="hakkimizda.html"><i class="fa fa-users"></i>Hakkımızda</a></li>
+                    <li><a href="magaza.html"><i class="fa fa-shopping-cart"></i>Mağaza</a></li>
+                    <li><a href="galeri.html"><i class="fa fa-picture-o"></i>Galeri</a></li>
+                    <li><a href="iletisim.html"><i class="fa fa-phone"></i>İletişim</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h1>ÜRÜNLERİMİZ</h1>
+                
+                <div class="icerik">
+                    <img src="img/marshall-slikonlu-boya-fiyatlari-2019-bakirkoy-istanbul-bulyak-boya.png" alt="" class="rsm">
+                    <h5>MARSHALL SLİKONLU BOYA</h5>
+                    <p class="icerikText">750 gram avantajlı paketimiz</p>
+                    <a href="" class="btnDevam"><i class="fa fa-shopping-basket"></i>Sepete Ekle</a>
+                </div>
+                <div class="icerik">
+                    <img src="img/marshall_akriror.jpg" alt="" class="rsm">
+                    <h5>MARSHALL AKRİROR</h5>
+                    <p class="icerikText">Doğal Boya</p>
+                    <a href="" class="btnDevam"><i class="fa fa-shopping-basket"></i>Sepete Ekle</a>
+                </div>
+                <div class="icerik">
+                    <img src="img/marshall_gecis_astarı.jpg" alt="" class="rsm">
+                    <h5>MARSHALL GEÇİŞ ASTARI</h5>
+                    <p class="icerikText">%82 oranda boyadan üretilmiştir</p>
+                    <a href="" class="btnDevam"><i class="fa fa-shopping-basket"></i>Sepete Ekle</a>
+                </div>
+                <div class="icerik">
+                    <img src="img/marshall-tiner.jpg" alt="" class="rsm">
+                    <h5>MARSHALL TİNER</h5>
+                    <p class="icerikText">Katkı Maddesi içermez</p>
+                    <a href="" class="btnDevam"><i class="fa fa-shopping-baasket"></i>Sepete Ekle</a>
+                </div>
+                <div class="icerik">
+                    <img src="img/marshall-macun.jpg" alt="" class="rsm">
+                    <h5>MARSHALL MACUN</h5>
+                    <p class="icerikText">%100 Boyadan üretilmiştir</p>
+                    <a href="" class="btnDevam"><i class="fa fa-shopping-basket"></i>Sepete Ekle</a>
+                </div>
+
+            </main>
+        </section>
+        <footer>
+            Tüm hakları saklıdır &copy; | 2022
+        </footer>
 
     </div>
-
-    <ul>
-        <li><a href="index.html">Ana Sayfa</a></li>
-        <li><a href="projeler.html">Projeler</a></li>
-        <li><a href="hedefler.html">Hedefler</a></li>
-        <li><a href="hakkimizda.html">Hakkımızda</a></li>
-        <li><a href="iletisim.html">İletişim</a></li>
-    </ul>
-
-
 </body>
-
 </html>
